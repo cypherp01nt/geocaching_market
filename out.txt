@@ -1,0 +1,84 @@
+confirm_receipt.php:			$rowListings = sql_select_listings($listingId, $conn);
+foo.txt:sql_select_listings
+functions.php:function sql_select_listings($id, $conn) {
+foo.txt:sql_select_escrow
+functions.php:function sql_select_escrow($id, $conn) {
+functions.php:				$rowEscrow = sql_select_escrow($rowListingsPaid['id'], $conn);
+foo.txt:namegenerator
+functions.php:function namegenerator($amount, $conn) {
+post_register_with_namesuggestions.php:<?php	namegenerator(5, $conn); ?>
+foo.txt:sql_select_users_names
+functions.php:function sql_select_users_names($conn) {
+send_registration_to_database.php:$users = sql_select_users_names($conn);
+foo.txt:count_unpaid_deals
+functions.php:function count_unpaid_deals($user, $conn) {
+my_tradeZ.php:		<dt><a href="home.php?role=client&status=no_payment">reservierte Angebote (<?php echo count_unpaid_deals($user, $conn); ?>)</a></dt>
+foo.txt:print_unpaid_deals
+functions.php:function print_unpaid_deals($user, $conn) {
+home.php:			print_unpaid_deals($user, $conn);
+foo.txt:cancel_order
+functions.php:		cancel_order($_post['id'], $conn);
+functions.php:function cancel_order($id, $conn) {
+foo.txt:are_deals_in_escrow
+functions.php:function are_deals_in_escrow($user, $role, $issetdoc, $conn) {
+functions.php:	if (are_deals_in_escrow($user, $role, $issetdoc, $conn)) {
+home.php:			if (are_deals_in_escrow($user, $role, $issetDoc, $conn)) {
+home.php:			if (are_deals_in_escrow($user, $role, $issetDoc, $conn)) {
+home.php:			if (are_deals_in_escrow($user, $role, $issetDoc, $conn)) {
+home.php:			if (are_deals_in_escrow($user, $role, $issetDoc, $conn)) {
+index.php:if (are_deals_in_escrow($user, "vendor", false, $conn)) {
+foo.txt:count_reserved_offerings
+functions.php:function count_reserved_offerings($user, $conn) {
+my_tradeZ.php:		<dd><a href="home.php?role=vendor&status=reserved">- reservierte Angebote (<?php echo count_reserved_offerings($user, $conn); ?>)</a></dd>
+foo.txt:print_reserved_offerings
+functions.php:function print_reserved_offerings($user, $conn) {
+home.php:			print_reserved_offerings($user, $conn);
+foo.txt:count_deals_in_escrow
+functions.php:function count_deals_in_escrow($user, $role, $issetDoc, $conn) {
+my_tradeZ.php:	$amountOfVendorsDealsInEscrow = ( count_deals_in_escrow($user, "vendor", true, $conn) + count_deals_in_escrow($user, "vendor", false, $conn) );
+my_tradeZ.php:	$amountOfClientsDealsInEscrow = ( count_deals_in_escrow($user, "client", true, $conn) + count_deals_in_escrow($user, "client", false, $conn) );
+foo.txt:print_deals_done
+functions.php:function print_deals_done($user, $role, $conn) {
+home.php:			print_deals_done($user, $role, $conn);
+home.php:			print_deals_done($user, $role, $conn);
+foo.txt:count_transacted_deals
+functions.php:function count_transacted_deals($user, $role, $conn) {
+my_tradeZ.php:		<dd><a href="home.php?role=vendor&status=done">- abgeschlossene (<?php echo count_transacted_deals($user, "vendor", $conn); ?>)</a></dd>
+my_tradeZ.php:		<dd><a href="home.php?role=client&status=done">- abgeschlossene (<?php echo count_transacted_deals($user, "client", $conn); ?>)</a></dd>
+foo.txt:alert_if_client_is_waiting_for_documentation_of_the_hidden_place
+functions.php:function alert_if_client_is_waiting_for_documentation_of_the_hidden_place($user, $conn) {
+foo.txt:print_deals_in_escrow
+functions.php:function print_deals_in_escrow($user, $role, $issetDoc, $conn) {
+home.php:				print_deals_in_escrow($user, $role, $issetDoc, $conn);
+home.php:				print_deals_in_escrow($user, $role, $issetDoc, $conn);
+home.php:				print_deals_in_escrow($user, $role, $issetDoc, $conn);
+home.php:				print_deals_in_escrow($user, $role, $issetDoc, $conn);
+foo.txt:count_my_offerings
+functions.php:function count_my_offerings($user, $conn) {
+my_tradeZ.php:		<dt><a href="home.php?role=vendor&status=no_payment">Angebote ohne Kunden (<?php echo count_my_offerings($user, $conn); ?>)</a></dt>
+foo.txt:print_my_offerings
+functions.php:function print_my_offerings($user, $conn) {
+home.php:			print_my_offerings($user, $conn);
+escrow.php:	sql_UPDATE_listings_SET_timestamp_double_client_prevention($id);		//fresh dont get loadet in index.php
+foo.txt:sql_UPDATE_listings_SET_timestamp_double_client_prevention
+functions.php:function sql_UPDATE_listings_SET_timestamp_double_client_prevention($id, $conn) {
+foo.php:var_dump(sql_free_old_unpaid_reservations($conn));
+foo.txt:sql_free_old_unpaid_reservations
+functions.php:function sql_free_old_unpaid_reservations($conn) {
+home.php:			sql_free_old_unpaid_reservations($conn);
+index.php:sql_free_old_unpaid_reservations($conn);
+escrow.php:	$rowListings = sql_UPDATE_listings_SET_payment($id, $user, $status);
+foo.txt:sql_UPDATE_listings_SET_payment
+functions.php:function sql_UPDATE_listings_SET_payment($id, $client, $status, $conn) {
+foo.txt:print_listings
+functions.php:function print_listings($user, $conn) {
+index.php:	print_listings($user, $conn);
+foo.txt:sql_SELECT_waypoints
+functions.php:function sql_SELECT_waypoints($conn) {
+functions.php:	$resultListings = sql_SELECT_waypoints($conn);
+foo.txt:write_accountbalances
+functions.php:function write_accountbalances($user, $conn) {
+index.php:/*write_accountbalances($user, $conn);
+foo.txt:print_account_balance
+functions.php:function print_account_balance($user, $conn) {
+index.php:		<?php print_account_balance($user, $conn); ?>

@@ -1,0 +1,2 @@
+harden nginx
+exchange errormessages through automated messages to me.

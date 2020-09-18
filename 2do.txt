@@ -1,0 +1,35 @@
+-vendor bond
+-signed vedors -> spammer vendor prevention
+-reputation, trustscore
+- escrow auto release timer
+- login through pgp-pub-key-message
+- this service requires onionshare and pgp. YOU DONT WANT TO TRUST ANYBODY.
+- statistik
+- sort (with sql) reputation, price, price per unit
+- freeze accounts, which are refreshing the double_client_prevention_timer or prevent refreshing
+- prevent http request attacks only let edit sql entries, which are linked with the $_SESSION["user"] var
+- css box_long is not fitting in the smartphone view
+- index.php: "Lade die ungefaehre Positionen aller Angebote fuer die Integration in dein GPS herunter" > always on the ground
+- autorelease
+- translate into english > multilanguage option
+- autoencryption of all private userinput
+- signchain
+- change online api to bitocoin full node
+- autoencrypt
+- lighning
+- implement ddos protection
+- account reputation transfer through pgp verification
+- exchange SESSION-id check with user-specific limitations
+- geocoder or coordinates-> self-> list with cities and corresponding coordinates
+- pay with intern funds
+- motivate to use gerade prices to make it free to pay with intern funds(lighning?)
+- withdraw money throug clicking on the account balance
+- autorelease escrow
+- replace the "Befreie Escrow" button with the message: "documentationlink has been requestet, without reaction of the vendor the trade gets canceld in xx:xx hours (with a mark in his reputation";
+- vendor bond zum schutz der kunden. um busts teuer zu machen.
+- channel auf der chatsoftware auf der bisq und die 3d print waffen clubs sich versammeln
+- set zuseatzlich 
+- ein Kunde hat bezahlt und ... lange ladezeiten durch die 3rd party escrow balance request. -> get from database
+- reloading page makes it possible to send reputation multiple times
+- find link for advertising: buggyplanet: deutschland: gesetz ueberwachung von paketsendungen
+https://owasp.org/www-project-top-ten/
