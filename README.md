@@ -8,7 +8,72 @@ But if you want to create your own centraliced marketplace, this is a good base.
 
 Feel free to contact me if you have questions or need help setting everything up.
 
+
 # Licence:
 
 for using my code you have to:
-send a thank you email to me and share your vision with me.
+- send me a link to your project
+cypherp01nt@protonmail.com
+
+
+
+
+
+Enjoy the free world
+
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+=Jimr
+-----END PGP PUBLIC KEY BLOCK-----
+-----BEGIN PGP SIGNATURE-----
+
+iQHPBAEBCgA5FiEETgRuEJ5vuxoAwx4GWN9a9DzBr7kFAl+EN28bHGN5cGhlcnAw
+MW50QHByb3Rvbm1haWwuY29tAAoJEFjfWvQ8wa+5OsIL/Auu1dQjxUINylmlwhsJ
+UMEBeaKLpiXpJBKuot1cnwYzMHgYRA5Rk4/ndYjqBSRuvowPrV+wiSsIACvKmQXy
+vHMJDj/2iM91p2m3QubVoYFt3p++siTNTVINY8iq5MmNrj6BJD5WhogmaeSOuLuB
+/VbWTL2YYPyBvK19/RDmVuyH4tHqv/004XaRYB4qB0V/VTTsLirSoUZiaLqmB8Ph
+gZI6fsABvC6ComTMh4Tdd/VTBwQV5r78yP+6aAE46pUUlAiTv97xIiISZ1+UMMrf
+ZGjNVmgTKfbUQUHy099FE/YOq/ONmaaETco25E1/4Y9He8yHqv43UiYMwgGkycvW
+rpg6HKedl1ETfnxG+OYYxe/0e572czN/58WDwTFMBeYNIDMGonaVIpCU5gnti3O6
+CWn8ro8zghUZf0rHR+7Ij35GPhWcl4AwdQ/H+vueHMqmcycdc6wSklckPajlWY34
+rbpYTnRgNdSHrb1o92h/LUoXj82tAn+rWujl6ZBh8tSGgg==
+=fPhy
+-----END PGP SIGNATURE-----
